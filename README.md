@@ -4,6 +4,16 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Full-Stack+Developer;Problem+Solver;Tech+Enthusiast;Always+Learning+Something+New" alt="Typing SVG" />
 </div>
 
+## 📋 Table of Contents
+- [🚀 About Me](#-about-me)
+- [🛠️ Tech Stack](#%EF%B8%8F-tech-stack)
+- [📊 GitHub Stats](#-github-stats)
+- [🏆 GitHub Trophies](#-github-trophies)
+- [🌟 Featured Projects](#-featured-projects)
+- [📈 Activity Graph](#-activity-graph)
+- [🤝 Let's Connect!](#-lets-connect)
+- [💼 Open to Opportunities](#-open-to-opportunities)
+
 ## 🚀 About Me
 
 I'm a passionate developer who loves creating innovative solutions and learning new technologies. With a strong foundation in software development, I enjoy tackling complex problems and building applications that make a difference.
