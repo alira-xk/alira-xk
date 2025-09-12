@@ -3,7 +3,7 @@ This README renders on your GitHub profile.
 Update sections (bio, tech, links) anytime!
 -->
 
-<h1 align="center">Hi, I'm <a href="https://github.com/alira-xk">alira-xk</a> 👋</h1>
+<h1 align="center">Hi, I'm <a href="https://github.com/alira-xk">Ali Raza</a></h1>
 
 <p align="center">
   Software Engineering student (7th semester) interested in Web Development and AI.
