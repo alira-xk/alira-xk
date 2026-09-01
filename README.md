@@ -87,4 +87,4 @@ A Python NLP application that predicts calorie estimates from food descriptions 
 
 📧 **Email:** [alira7640@gmail.com](mailto:alira7640@gmail.com)
 
-💼 **LinkedIn:** [linkedin.com/in/aliraza-se](https://www.linkedin.com/in/aliraza-se21)
+💼 **LinkedIn:** [linkedin.com/in/aliraza-se21](https://www.linkedin.com/in/aliraza-se21)
