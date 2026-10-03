@@ -1,108 +1,86 @@
-<h1 align="center">Hi, I'm Ali Raza</h1>
+<div align="center">
 
-<p align="center">
-  <strong>Software Engineer | Backend Development & Applied AI</strong><br/>
-  C++20 · TypeScript · Python · Node.js · React · PostgreSQL · Redis · PyTorch
-</p>
+# Ali Raza
 
-<p align="center">
-  <a href="mailto:alira7640@gmail.com">Email</a> •
-  <a href="https://www.linkedin.com/in/aliraza-se21">LinkedIn</a> •
-  <a href="https://github.com/alira-xk">GitHub</a>
-</p>
+**Software Engineer · Backend Systems · Applied AI**
 
----
+I build backend systems, retrieval engines, and applied AI — from a C++20 vector database to simulated spacecraft mission control.
 
-## About Me
+[Portfolio](https://portfolio-psi-cyan-90.vercel.app) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/aliraza-se21) &nbsp; / &nbsp; [Email](mailto:alira7640@gmail.com)
 
-Software Engineering graduate focused on backend systems, applied AI, and production-style full-stack applications.
+![C++20](https://img.shields.io/badge/C%2B%2B20-1f2937?style=flat-square&logo=cplusplus&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-1f2937?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-1f2937?style=flat-square&logo=python&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1f2937?style=flat-square&logo=postgresql&logoColor=white)
 
-- Building APIs and distributed backend services with Node.js, Express, PostgreSQL, and Redis
-- Developing AI/ML systems with Python, FastAPI, PyTorch, and retrieval-augmented generation
-- Building vector retrieval systems in C++20, including HNSW search, BM25 ranking, and persistent storage
-- Comfortable with authentication, real-time data pipelines, databases, testing, and ML inference
+Lahore, Pakistan · Software Engineering graduate
 
-## Tech Stack
-
-### Languages & Frameworks
-
-<p>
-  <img alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="32" />
-  <img alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="32" />
-  <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" />
-  <img alt="C++" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="32" />
-  <img alt="Node.js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="32" />
-  <img alt="Express" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="32" />
-  <img alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="32" />
-  <img alt="FastAPI" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="32" />
-</p>
-
-### Data & AI
-
-<p>
-  <img alt="PostgreSQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="32" />
-  <img alt="Redis" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="32" />
-  <img alt="MongoDB" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="32" />
-  <img alt="PyTorch" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="32" />
-</p>
-
-**Also:** SQL · pgvector · WebSockets · REST APIs · JWT · RBAC · Hugging Face Transformers · CMake · GitHub Actions · Git/GitHub
+</div>
 
 ---
 
-## Featured Projects
+## Selected engineering work
 
-### [VectorForge — C++20 Vector Database & Retrieval Engine](https://github.com/alira-xk/vector)
+### 01 / VectorForge
 
-A vector database built from scratch with a dependency-free C++20 core. Combines exact and HNSW vector search with BM25 keyword retrieval and hybrid ranking, with typed metadata filters, checksummed binary persistence, and concurrent operations.
+**A vector database and retrieval engine built from scratch in C++20.**
 
-Includes an HTTP server and CLI, optional Python document ingestion and RAG integration, Windows/Linux CI, and reproducible performance experiments.
+Built to make the mechanics of search inspectable: vector mathematics, graph construction, lexical ranking, storage, and synchronization live in the implementation.
 
-**Highlights:** C++20 · HNSW · BM25 · Reciprocal Rank Fusion · Python · RAG · CMake · GitHub Actions
+- **Retrieval:** exact and HNSW vector search, BM25 keyword search, and Reciprocal Rank Fusion for hybrid results.
+- **Storage and concurrency:** typed metadata filters, checksummed snapshots, atomic file replacement, reader/writer locks, and a draining thread pool.
+- **Integration:** HTTP server, CLI, and optional Python document ingestion and RAG gateway.
+- **Verification:** unit, process, allocation-failure, and concurrency checks; Windows/Linux CI; documented performance experiments and deployment limits.
 
-### [ORBITAL-X — AI Spacecraft Mission Control](https://github.com/alira-xk/orbital-x)
+`C++20` `HNSW` `BM25` `Python` `CMake` `GitHub Actions`
 
-An AI-powered mission-control platform that simulates spacecraft telemetry, detects developing failures, correlates alerts into incidents, investigates root causes with RAG and an LLM, and supports human-approved recovery commands.
+[Explore the code](https://github.com/alira-xk/vector) · [Architecture](https://github.com/alira-xk/vector/blob/main/docs/architecture.md) · [Testing](https://github.com/alira-xk/vector/blob/main/docs/testing.md) · [Performance](https://github.com/alira-xk/vector/blob/main/docs/performance.md)
 
-**Highlights:** React · TypeScript · Node.js · FastAPI · PostgreSQL/pgvector · Redis Streams · WebSockets · Isolation Forest · RBAC
+### 02 / ORBITAL-X
 
-### [Patient Management System — Backend](https://github.com/alira-xk/Patient-Management--Backend)
+**Simulated spacecraft mission control, from telemetry to human-approved recovery.**
 
-A Node.js/Express backend for patient records, appointments, and medical histories.
+An end-to-end system that streams spacecraft telemetry, detects developing anomalies, correlates incidents, and helps operators investigate failures with AI.
 
-**Highlights:** JWT authentication · RBAC · bcrypt password hashing · REST APIs · MongoDB/Mongoose · Postman
+- **Live operations:** Redis Streams telemetry pipeline, PostgreSQL persistence, WebSocket updates, and a React/Three.js mission dashboard.
+- **Detection and investigation:** Isolation Forest and engineering rules, semantic search with pgvector, and evidence-backed RAG investigations.
+- **Recovery controls:** role-based permissions, audited commands, and two distinct operator approvals for critical recovery actions. AI remains advisory.
+- **Replay and verification:** incident-scoped mission replay, automated checks, and a documented local recovery flow using PostgreSQL and Redis.
 
-### [Forensic Timeline Reconstructor](https://github.com/alira-xk/forensic-timeline-reconstructor)
+`TypeScript` `React` `Node.js` `Python / FastAPI` `PostgreSQL` `Redis` `Three.js`
 
-A full-stack digital evidence analysis platform that extracts metadata and timestamps from DOCX, PDF, image, and log files and builds searchable chronological timelines.
-
-**Highlights:** Node.js · Express · MongoDB · React Native/Expo · Python extraction engine · SHA-256 hashing · JWT · CSV/JSON export
-
-### [Food Calorie Estimator — Text Based](https://github.com/alira-xk/Food-Calorie-Estimator---Text-Based)
-
-A Python NLP application that predicts calorie estimates from food descriptions using a trained DistilBERT model.
-
-**Highlights:** Python · PyTorch · Hugging Face Transformers · Flask · model training · inference
+[Explore the code](https://github.com/alira-xk/orbital-x) · [System overview](https://github.com/alira-xk/orbital-x#architecture) · [Verification evidence](https://github.com/alira-xk/orbital-x/tree/main/docs/evidence)
 
 ---
 
-## Other Projects
+## More projects
 
-- [Pokedex](https://github.com/alira-xk/Pokedex) — React application for working with Pokémon data, API requests, search, and state management.
-- [Netflix Clone](https://github.com/alira-xk/Netflix-Clone) — Frontend project focused on recreating a streaming-service interface.
-- [Fitify](https://github.com/alira-xk/fitify) — Fitness application project.
+| Project | What I built | Core tools |
+| :--- | :--- | :--- |
+| [Patient Management Backend](https://github.com/alira-xk/Patient-Management--Backend) | APIs for patient records, appointments, and medical histories, with JWT authentication and role-based access. | Node.js · Express · MongoDB |
+| [Forensic Timeline Reconstructor](https://github.com/alira-xk/forensic-timeline-reconstructor) | Evidence metadata extraction, searchable timelines, SHA-256 integrity checks, and CSV/JSON export. | Node.js · Python · MongoDB · React Native |
+| [Food Calorie Estimator](https://github.com/alira-xk/Food-Calorie-Estimator---Text-Based) | A DistilBERT-based application for estimating calories from food descriptions, including training and inference. | Python · PyTorch · Hugging Face · Flask |
+
+Frontend explorations: [Pokédex](https://github.com/alira-xk/Pokedex) · [Netflix Clone](https://github.com/alira-xk/Netflix-Clone) · [Fitify](https://github.com/alira-xk/fitify)
+
+## Technical toolkit
+
+| Area | Technologies and practices |
+| :--- | :--- |
+| Systems & retrieval | C++20, HNSW, BM25, hybrid ranking, binary persistence, concurrency, CMake |
+| Backend & data | TypeScript, Node.js, Express, PostgreSQL, Redis, MongoDB, REST APIs, WebSockets |
+| AI & ML | Python, FastAPI, PyTorch, Hugging Face Transformers, pgvector, RAG, anomaly detection |
+| Interfaces & delivery | React, Three.js, Git, GitHub Actions, automated testing, architecture documentation |
+
+## How I approach engineering
+
+I care about what happens beyond the happy path: invalid inputs, failed allocations, concurrent requests, recovery, and permissions. My strongest projects include source code, architecture notes, verification evidence, and explicit limits so the work can be evaluated rather than taken on trust.
+
+My current focus is backend engineering, vector retrieval, and AI applications with inspectable behavior.
 
 ---
 
-## Currently Focused On
+<div align="center">
 
-- Backend and distributed systems engineering
-- Vector databases, search algorithms, and retrieval engines
-- Applied AI and retrieval-augmented generation
-- Building production-style projects
+**Let's talk about backend, systems, or applied AI engineering.**
 
-## Contact
+[alira7640@gmail.com](mailto:alira7640@gmail.com) · [LinkedIn](https://www.linkedin.com/in/aliraza-se21) · [Portfolio](https://portfolio-psi-cyan-90.vercel.app)
 
-**Email:** [alira7640@gmail.com](mailto:alira7640@gmail.com)
-
-**LinkedIn:** [linkedin.com/in/aliraza-se21](https://www.linkedin.com/in/aliraza-se21)
+</div>
